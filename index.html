@@ -31,6 +31,8 @@ function getLocation() {
 function showPosition(position) {
     x.innerHTML="Latitude: " + position.coords.latitude + 
     "<br>Longitude: " + position.coords.longitude +
+    "<br>Current Heading: " + position.coords.heading +
+    "<br>Current Speed: " + position.coords.speed +
     "<br>set_speed: 100RPM" +
     "<br>set_angle: 157 degree";
 }
